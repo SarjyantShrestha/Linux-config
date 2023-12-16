@@ -1,5 +1,4 @@
 # vim:fileencoding=utf-8:foldmethod=marker
- include ./cherrymidnight.conf
 
 #: Fonts {{{
 
@@ -7,7 +6,7 @@
 #: individual font faces and even specify special fonts for particular
 #: characters.
 
- font_family      Fira Code Medium
+    font_family MesloLGS NF regular
 # bold_font        auto
 # italic_font      auto
 # bold_italic_font auto
@@ -25,7 +24,7 @@
 #:     italic_font      Operator Mono Book Italic
 #:     bold_italic_font Operator Mono Medium Italic
 
- font_size 14.0
+        font_size 12.0
 
 #: Font size (in pts)
 
@@ -76,7 +75,7 @@
 
 #:     narrow_symbols codepoints [optionally the number of cells]
 
- disable_ligatures always
+        disable_ligatures always
 
 #: Choose how you want to handle multi-character ligatures. The
 #: default is to always render them. You can tell kitty to not render
@@ -231,8 +230,7 @@
 #: }}}
 
 #: Cursor customization {{{
-
- cursor none
+# cursor none
 
 #: Default cursor color. If set to the special value none the cursor
 #: will be rendered with a "reverse video" effect. It's color will be
@@ -269,13 +267,13 @@
 
 #: The thickness of the underline cursor (in pts).
 
- cursor_blink_interval -1
+ cursor_blink_interval 0
 
 #: The interval to blink the cursor (in seconds). Set to zero to
 #: disable blinking. Negative values mean use system default. Note
 #: that the minimum interval will be limited to repaint_delay.
 
- cursor_stop_blinking_after 10.0
+ cursor_stop_blinking_after 0
 
 #: Stop blinking cursor after the specified number of seconds of
 #: keyboard inactivity. Set to zero to never stop blinking.
@@ -1068,7 +1066,7 @@
 
 #: The foreground and background colors.
 
- background_opacity 0.9
+ background_opacity 1
 
 #: The opacity of the background. A number between zero and one, where
 #: one is opaque and zero is fully transparent. This will only work if
@@ -2343,3 +2341,9 @@
 #: }}}
 
 #: }}}
+
+
+# BEGIN_KITTY_THEME
+# Catppuccin-Macchiato
+include current-theme.conf
+# END_KITTY_THEME
