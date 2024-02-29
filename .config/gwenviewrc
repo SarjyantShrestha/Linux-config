@@ -3,38 +3,37 @@ update_info=gwenview.upd:SideBar_StatusBar_Rename,gwenview.upd:ImageView_AlphaBa
 
 [General]
 LastUsedVersion=210800
-ThumbnailBarIsVisible=true
 
 [ImageView]
-ThumbnailSplitterSizes=304,86
+ThumbnailSplitterSizes=763,214
 
 [MainWindow]
 1920x1080 screen: Window-Maximized=true
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAAAm4AAAGvAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB2oAAAP6AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 
 [Recent Files]
-File1[$e]=/run/media/rapzy/Arch/boys edit/355816303_1013700986430274_3631431233880662654_n.jpg
-File10[$e]=$HOME/Downloads/Deepfake-Detection-Project/testsimg/no3.jpeg
-File2[$e]=/run/media/rapzy/Arch/boys edit/355539887_594137106158969_3748184352837077621_n.jpg
-File3[$e]=/run/media/rapzy/Arch/boys edit/350261914_591908756109460_955426606413446946_n.jpg
-File4[$e]=$HOME/Downloads/testimages/testimage3.png
-File5[$e]=$HOME/Downloads/ezgif.com-animated-gif-maker (1).gif
-File6[$e]=$HOME/Downloads/Deepfake-Detection-Project/src/Assets/logo.png
-File7[$e]=$HOME/Downloads/Deepfake-Detection-Project/src/Assets/githublogo.png
-File8[$e]=$HOME/Downloads/Deepfake-Detection-Project/src/Assets/g.png
-File9[$e]=$HOME/Downloads/Deepfake-Detection-Project/testimages/123123.png
-Name1[$e]=355816303_1013700986430274_3631431233880662654_n.jpg
-Name10[$e]=no3.jpeg
-Name2[$e]=355539887_594137106158969_3748184352837077621_n.jpg
-Name3[$e]=350261914_591908756109460_955426606413446946_n.jpg
-Name4[$e]=testimage3.png
-Name5[$e]=ezgif.com-animated-gif-maker (1).gif
-Name6[$e]=logo.png
-Name7[$e]=githublogo.png
-Name8[$e]=g.png
-Name9[$e]=123123.png
+File1[$e]=/run/media/rapzy/Arch/boys edit/350261914_591908756109460_955426606413446946_n.jpg
+File10[$e]=/run/media/rapzy/50E0B3CBE0B3B616/Users/sarjy/Downloads/os 2.png
+File2[$e]=$HOME/Downloads/testimages/testimage3.png
+File3[$e]=$HOME/Downloads/ezgif.com-animated-gif-maker (1).gif
+File4[$e]=$HOME/Downloads/Deepfake-Detection-Project/src/Assets/logo.png
+File5[$e]=$HOME/Downloads/Deepfake-Detection-Project/src/Assets/githublogo.png
+File6[$e]=$HOME/Downloads/Deepfake-Detection-Project/src/Assets/g.png
+File7[$e]=$HOME/Downloads/Deepfake-Detection-Project/testimages/123123.png
+File8[$e]=$HOME/Downloads/Deepfake-Detection-Project/testsimg/no3.jpeg
+File9[$e]=/run/media/rapzy/50E0B3CBE0B3B616/Users/sarjy/Downloads/oS 1.png
+Name1[$e]=350261914_591908756109460_955426606413446946_n.jpg
+Name10[$e]=os 2.png
+Name2[$e]=testimage3.png
+Name3[$e]=ezgif.com-animated-gif-maker (1).gif
+Name4[$e]=logo.png
+Name5[$e]=githublogo.png
+Name6[$e]=g.png
+Name7[$e]=123123.png
+Name8[$e]=no3.jpeg
+Name9[$e]=oS 1.png
 
 [SideBar]
 InformationSplitterSizes=232,235
