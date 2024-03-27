@@ -17,22 +17,25 @@ config.color_scheme = "rose-pine"
 
 -- Set background to same color as neovim
 config.colors = {
-	cursor_bg = "#f6c177",
-	cursor_fg = "#081818",
+	-- cursor_bg = "#ae81e3", --RosePine
+	cursor_bg = "#5bb76e", --RosePine
 }
 
---config.colors.background = "#191724"
+config.window_background_opacity = 0.85
+config.enable_wayland = false
+
 config.colors.background = "#111111"
 config.window_close_confirmation = "NeverPrompt"
 
-config.default_cursor_style = "SteadyBar"
-config.hide_tab_bar_if_only_one_tab = true
+config.default_cursor_style = "SteadyBlock"
 
+config.hide_tab_bar_if_only_one_tab = true
 config.freetype_load_flags = "NO_HINTING"
 config.font = wezterm.font_with_fallback({
 	{ family = "JetBrainsMono", weight = "Medium" },
 	"nonicons",
 })
+config.font_size = 12.5
 
 -- default is true, has more "native" look
 config.use_fancy_tab_bar = false
